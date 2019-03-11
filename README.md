@@ -1,22 +1,18 @@
-# 📊 Week07 Bootcamp2019a Project: Complex API 2
+# My Awesome Project
+In this application the user can enter a state and recieve the past news agencies that were once in business. 
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+![alt tag](newsagency.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript, Framework of choice
+
+In this project I used an API that had the proved me the names of old new agencies and the dates they were founded and the dates they went out of business.
+
+
+## Lessons Learned:
+
+I learned somewhat how to go through the indexes of the objects in an array from an API.
+
+
