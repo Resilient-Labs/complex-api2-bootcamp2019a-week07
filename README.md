@@ -2,7 +2,6 @@
 In this application the user can enter a state and recieve the past news agencies that were once in business. 
 
 
-
 ![alt tag](newsagency.png)
 
 ## How It's Made:
