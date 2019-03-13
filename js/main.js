@@ -1,33 +1,41 @@
-document.querySelector('form').addEventListener('submit', history)  
+document.querySelector("button").addEventListener("click", strain);
 
-function history(e){
-  e.preventDefault()
-  let stateName = document.querySelector('input').value
- 
-
-  fetch(`https://chroniclingamerica.loc.gov/suggest/titles/?q=` + stateName)
-    .then(res => res.json()) // parse response as JSON (can be res.text() for plain response)
+function strain(e) {
+  e.preventDefault();
+  let apiURL = "http://strainapi.evanbusse.com/mvet9Uc/strains/search/all";
+//get the api
+  fetch(apiURL)
+    .then(res => res.json())
     .then(response => {
-        // console.log(response);
-        
-        console.log(response[1]);
-        
-        // document.querySelector('p').textContent = response.florida
-        
-        const section = document.getElementById('alpha');
-        //setting up section to call later to add appendchild
-        response[1].forEach(function(state){
-        //itterate through the response array and give each indexes
-        const article = document.createElement('p')
-        //gunna put every article that is showing up into p tag
-        
-        article.innerHTML = `<p>${state}</p>`
-        section.appendChild(article);
-        })
-
+        // json returns object of object , the propertie of each objects is the name of the string
+      let strainArray = Object.keys(response);
+      //itterating through the array to pass each string name through the wiki api
+      strainArray.forEach(function(el) {
+        wiki(el);
+      });
     })
     .catch(err => {
-        console.log(`error ${err}`)
-        alert("sorry, there are no results for your search")
+      alert("sorry nah");
+    });
+}
+
+function wiki(strain) {
+  let apiURL =
+    "https://en.wikipedia.org/w/api.php?action=opensearch&origin=*&search=" +
+    encodeURI(strain) +
+    "&format=json";
+
+  fetch(apiURL)
+    .then(res => res.json())
+    .then(response => {
+        //making list items with string names and wikipedia description
+      let list = document.querySelector("ul");
+      let listItem = document.createElement("li");
+      listItem.innerHTML = `<li>${strain}</li>
+      <p>${response[2][0]}</p>`;
+      list.appendChild(listItem);
+    })
+    .catch(err => {
+      alert("sorry nah");
     });
 }
