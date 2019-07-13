@@ -1,0 +1,35 @@
+*{
+  text-align: center;
+}
+body{
+  /* background-color: lightblue; */
+  background-image: url(https://media.giphy.com/media/xT4uQsi1f0GxvsrXs4/source.gif);
+  /* background-position: 200px 0px 0px 0px; */
+  background-repeat: round;
+
+}
+div{
+  margin: auto;
+}
+h1{
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+h2{
+  font-style: italic;
+}
+p{
+  font-size: 25px;
+  margin: 3px;
+}
+h3{
+  font-size: 33px;
+  margin: 0;
+}
+button,input{
+  font-size: 50px;
+}
+iframe{
+  height: 300px;
+  width: 660px;
+}
