@@ -4,7 +4,7 @@
 
 ### Preview:
 
-![alt tag](COMPLEXAPi/complex1/complex-api2-bootcamp/homepagepreview.png)
+![alt tag](homepagepreview.png)
 
 ### lessons learned:
 ```
