@@ -1,4 +1,4 @@
-# 📊 Project: Complex API 2
+# 📊 Project: Complex API - Recipes
 
 ### Goal: Get a randomized recipe and display using The Meal DB's API. From the recipe given, get the number of calories per 100g of that dish and using Edamam's Food Database API.
 
