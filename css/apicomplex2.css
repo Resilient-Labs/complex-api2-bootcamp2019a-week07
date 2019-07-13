@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik Mono One', sans-serif;
+  background-image: url(../beer.jpg);
+  background-size: cover;
+}
+
+h2 {
+  color: #e34307;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 70px;
+}
+
+p {
+  text-align: center;
+  color: white;
+  background-color: #e34307;
+  margin: 28px;
+  font-size: 1.5rem;
+}
+
+li {
+  list-style: none;
+  color: white;
+  
+}
+
+input {
+  width: 30%;
+  height: 50px;
+  padding: 20px;
+  margin-left: 26%;
+  margin-top: 42px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+button {
+  width: 20%;
+  height: 50px;
+}
+
+
+#map{
+  height: 400px;
+  width:400px;
+  margin-left:20%;
+}
