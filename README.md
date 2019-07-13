@@ -2,7 +2,7 @@
 
 ### Goal: Get a randomized recipe and display using The Meal DB's API. From the recipe given, get the number of calories per 100g of that dish and using Edamam's Food Database API.
 
-**View project in browser:** https://endev-recipe-complex-api
+**View project in browser:** https://endev-recipe-complex-api.com
 
 ![alt tag](screenshot.png)
 
