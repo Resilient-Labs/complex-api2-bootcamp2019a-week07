@@ -1,0 +1,164 @@
+/******************************************
+/* SETUP
+/*******************************************/
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  }
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+body {
+  margin: 7% 12%;
+  font-family: 'Open Sans', serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000;
+  background-image: url('media/bg.jpeg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main{
+  background-color: rgba(127, 167, 239, .9);
+  border-radius: 10px;
+  border: 1px solid #2c70ed;
+  padding: 5% 10%;
+}
+
+.leftSec, .rightSide{
+  float:left;
+  margin-top: 20px;
+}
+
+.leftSec {
+  width:30%;
+  border-right: 1px solid #2c70ed;
+  margin-right: 12%;
+}
+
+.tagline,h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #123982;
+}
+
+.tagline{
+  font-family: 'Acme', sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+
+h1,h2,h3 {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+h3 {
+  clear:both;
+}
+
+button {
+  width:70%;
+  background-color:inherit;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+button:focus {
+    outline: 1px solid #000;
+    border-radius: 10px;
+}
+
+.mealPhoto {
+  width:50%;
+  padding-top: 20px;
+}
+
+ul{
+  margin-bottom: 40px;
+}
+
+li {
+  list-style-type: disc;
+  margin-left: 7%;
+  margin-bottom: 4px;
+}
+
+.instructions {
+  font-size: 18px;
+  line-height: 1.2em;
+}
