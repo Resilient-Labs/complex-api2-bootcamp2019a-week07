@@ -1,22 +1,13 @@
-# 📊 Project: Complex API 2
+# Project: Harry Potter (Complex API 2)
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+### Goal:   Return data from a Harry Potter API (Hogwart's House Names) thats used to make a request to Giphy's API and display's a Gif. (For the  Hogwart's House).
 
-### How to submit your code for review:
+### Preview:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt tag](homepagepreview.png)
 
-Example:
+### lessons learned:
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+In this Project I learned to think through what API to initially use for my first fetch, because the limitations of certain API's I knew to use a API that had a response I could utilize for my second API call.
+
 ```
