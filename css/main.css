@@ -1,0 +1,15 @@
+.size{
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    border: 2px solid rgba(28, 209, 241, 0.8);
+    padding: 2%;
+    text-align: center;
+    margin: 5%;
+  }
