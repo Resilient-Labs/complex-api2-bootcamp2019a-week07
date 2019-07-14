@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: lightgoldenrodyellow
+}
+h1  {
+  margin-top: 0%;
+letter-spacing: .5rem;
+  margin-bottom: 2%;
+  font-size: 5em;
+  line-height: 1.2em;
+  width: 79%;
+  padding-left: 4%;
+}
+h2 {
+  padding-left: 3%;
+}
+
+p {
+  padding-left: 3%;
+}
+.recipes {
+  margin-top: 3%;
+  padding-left: 2%;
+  width: 50%;
+  float: left;
+
+}
+img {
+  width: 121%;
+  padding-left: 4%;
+}
+.recpImage {
+  background-image: url("https://images.unsplash.com/photo-1559925176-888e92a76ed1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80");
+  background-size: cover;
+  float: right;
+  width: 30%;
+  height: 987px;
+}
+span {
+  font-size: 3rem;
+  padding-left: 2rem;
+}
+
+#yes {
+  width: 20%;
+  padding-left: 5%;
+  margin-bottom: 3%;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+#no {
+  display: none;
+  padding-left: 28px;
+  font-size: 4rem;
+}
