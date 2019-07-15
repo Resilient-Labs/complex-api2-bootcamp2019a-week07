@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../images/music.png");
+  background-color: lightblue; /* Used if the image is unavailable */
+  width: 100%; /* You must set a specified height */
+  height:800px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+input {
+  border: 1px solid yellow;
+}
+p  {
+  background-color: yellow;
+  opacity: 0.8;
+  font-weight: bold;
+  border: 1px solid green;
+}
