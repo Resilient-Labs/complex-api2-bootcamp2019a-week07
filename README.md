@@ -1,22 +1,10 @@
-# 📊 Project: Complex API 2
+# Map Venue
+This project is utilizing a mapbox api, as well as a foursquare api. The user inputs a city where the foursquare api then targets the mapbox api and shoots out all venues the user requested. There is a marker pointing to the exact latitude and longitude.
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+**Tech used:** HTML, CSS, & JavaScript
 
-### How to submit your code for review:
+## Lessons Learned:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+This project was an interesting one. A fetch approach was not needed to target the mapbox api but instead, the map was designed through the html that connected directly through to the mapbox website itself. It was fun to use the foursquare api where I incerted all the venues through a div placeholder instead of an ul which was what I am used to doing.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![alt tag](venueSS.png)
