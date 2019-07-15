@@ -1,0 +1,29 @@
+body{
+  background-image: url("https://wpamelia.com/wp-content/uploads/2019/02/background-close-up-color-1227648.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1{
+  text-align: center;
+  color: aliceblue;
+}
+
+form{
+  text-align: center;
+}
+
+
+#image{
+  margin: 0 25%
+}
+
+#name{
+  font-size: 2rem;
+  color: antiquewhite;
+}
+
+#tracks{
+  font-size: 1.3rem;
+  color: aliceblue;
+}
