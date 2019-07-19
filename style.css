@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  font-size: 10pt;
+}
+
+
+body {
+  background-image: url(https://media.giphy.com/media/AfevfbKQwLhIc/source.gif);
+  margin: 0;
+  background-size: 100% 800px;
+  background-position: 0px -100px;
+}
+
+.eventInfo {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.searchResults {
+  margin-top: 40px;
+}
+
+img {
+  margin-top: 20px;
+  height: 200px;
+  width : auto;
+  float: left;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-left: 2%;
+  margin-top: 2%;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-left: 1%;
+}
+
+form {
+  margin-left: 2%;
+}
+
+h3 {
+  margin-top: 125px;
+  margin-left: 2%
+}
+
+img {
+  margin-left: 2%;
+}
