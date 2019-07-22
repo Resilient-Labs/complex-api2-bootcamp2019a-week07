@@ -1,22 +1,21 @@
-# 📊 Project: Complex API 2
+# Complex API 2 - Fun with Fido
+The project is webpage that uses an two apis to generate random gifs of dog by breed when the button is clicked.
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+<img src="/FunWithFIdo_screenschoot.png?raw=true" alt="screenshot of Fun with Fido webpage" height="200px">
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+The project was create and designed with HTML and CSS. Javascript was used to fetch an API that generates random dog breeds, the data from the first API (the dog breed API), was then used as a search parameter value in the second gif API, which then searches a Gif that is displayed on the webpage.
+
+## Optimizations (Optional):
+
+Optional.
+
+
+## Lessons Learned:
+
+I learned in this project that gifs can be used in the place of images in web development as display appropriated. I also learned that at times the format of the data your retrieve from the API is in a format that is easily readable by another API and at other times that data needs to be converted into a format that is more easily readable..
+
+
