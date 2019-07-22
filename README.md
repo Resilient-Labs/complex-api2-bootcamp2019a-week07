@@ -1,7 +1,7 @@
 # Complex API 2 - Fun with Fido
 The project is webpage that uses an two apis to generate random gifs of dog by breed when the button is clicked.
 
-<img src="/FunWithFIdo_screenschoot.png?raw=true" alt="screenshot of Fun with Fido webpage" height="200px">
+<img src="FunWithFido_screenschot.png?raw=true" alt="screenshot of Fun with Fido webpage" height="200px">
 
 ## How It's Made:
 
