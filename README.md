@@ -1,22 +1,15 @@
 # 📊 Project: Complex API 2
+link: https://hardcore-easley-915bde.netlify.com/
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
+![alt text](Capture.PNG)
+### How I did it:
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+- Technologies used: HTML, CSS, JS
+- The initial rendering has a button with an event listener
+- Upon being clicked, a function runs to take gather the names of the astronauts currently on the ISS
+- The names are added to some input nodes and they're allcollectively appended to a form that is hidden
+- One of the radio button inputs must be selected and the next button pressed to call the next API
+- The selected astronaut name is taken and split up, the initials of the astronaut are taken and used to query a Star Wars API
+- The first index returned character object is taken and its information is displayed by taking each property and appending it to p elements in the DOM
+ 
