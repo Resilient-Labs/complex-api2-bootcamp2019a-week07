@@ -33,9 +33,10 @@ function fetchUpdated(e) {
   .then(res => fetchTwoUpdated(res.amiibo[0].gameSeries))
   .catch(err => console.log(err))
 }
+
 function fetchTwoUpdated(game) {
-  fetch(`http://localhost:8010/v1/search?q=${game}&key=ERHRYHRBWT9J&limit=8`)
+  fetch(`https://pixabay.com/api/?key=14148010-0dc08c84faafaa45a9e30ddb3&q=${game}`)
   .then(res => res.json())
-  .then(res => {document.querySelector('img').src = res.results[0].url})
+  .then(res => {document.querySelector('img').src = res.hits[0].largeImageURL})
   .catch(err => console.log(err))
 }
