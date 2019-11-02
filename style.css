@@ -1,0 +1,42 @@
+body{
+  /* background-color: #CD5334; */
+  margin-top: 0;
+  background-image: url(background.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  }
+  h1,h3,h4{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: mediumblue;
+
+  }
+  section{
+    display: flex;
+    justify-content: center;
+  }
+
+  .show{
+    display: flex;
+    justify-content: center;
+
+  }
+
+#headline{
+  color: black;
+  font-size: 20px;
+  font-weight: 650;
+
+}
+button{
+    border-radius: 1.3em;
+    font-size: x-large;
+}
+#name{
+  height: 30px;
+  width: fit-content;
+  font-size: x-large;
+}
