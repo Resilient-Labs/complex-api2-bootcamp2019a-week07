@@ -46,6 +46,7 @@ margin-left: -24px;
 }
 i{
   margin-right:13px;
+  cursor: none;
 }
 
 i:hover{
