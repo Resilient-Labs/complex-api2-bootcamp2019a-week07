@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbreweryprintshoppe.com%2Fwp-content%2Fuploads%2F2017%2F12%2Fbrewery-print-shoppe-background-keg-beer.jpg&f=1&nofb=1);
+  background-size: 100%;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+form{
+  text-align: center;
+}
+input{
+  border-radius: 10px;
+}
+li{
+  text-align: center;
+  list-style: none;
+  margin-bottom: 2%;
+  font-weight: bold;
+  color: white;
+}
