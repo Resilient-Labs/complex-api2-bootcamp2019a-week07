@@ -1,0 +1,60 @@
+body{
+  font-family: 'Jomolhari', serif;
+}
+
+legend{
+  margin-top: 20px;
+  font-size: 35px;
+  text-align: center;
+}
+p{
+  text-align: center;
+  line-height: 22px;
+}
+#dropdown{
+  margin-left: 461px;
+  width: 21%;
+  height: 28px;
+  cursor: pointer;
+  font-size: 21px;
+}
+button:hover{
+  background-color:lightgray;
+}
+button{
+  height: 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 21px;
+}
+img{
+  margin-left: 396px;
+margin-top: 20px;
+width: 39%;
+height: 318px;
+margin-bottom: 20px;
+}
+
+#dropdown:hover{
+  background-color: orange;
+}
+
+ul{
+  text-align: center;
+font-size: 30px;
+margin-left: -24px;
+}
+i{
+  margin-right:13px;
+  cursor: none;
+}
+
+i:hover{
+  color: orange;
+}
+
+div{
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
