@@ -1,4 +1,4 @@
-# My To do list
+# Complex Brewery/Sunrise-Sunset API
 This project is a complex API. I used a brewery API along with a sun-rise/sun-set API. I was able to utilize the longitude and latitude coordinates for both APIs to work together, so when you input a city and/or state, it will give you a list of breweries around that area along with the time of sun-rise and sun-set.
 
 
