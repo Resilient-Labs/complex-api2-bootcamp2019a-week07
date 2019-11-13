@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+  background-image: url("images/photo1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 10px;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+}
+.description{
+  color:white;
+  text-align: center;
+  font-size: 2.3;
+}
+.module{
+  all: unset;
+}
+form{
+  text-align: center;
+  margin: auto;
+  font-size: 1.5rem;
+  border-radius: 4%;
+}
+input,button{
+  color: white;
+  margin: auto;
+  font-size: 1.5rem;
+  border-radius: 4%;
+}
+th{
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  border: 1px solid white;
+  width: 10%;
+}
+td{
+  border: 1px solid white;
+  color: white;
+  font-size: 1.5rem;
+}
+a{
+  font-size: 1.5rem;
+}
+table{
+  border: 1px solid white;
+  align-items: center;
+}
+tr{
+  border: 1px solid white;
+}
