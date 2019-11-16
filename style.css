@@ -28,13 +28,24 @@ button{
   position: absolute;
   transition: 1.5s ease;
   left: 39%;
-  width: 20%;
-  height: 15%;
+  width: 27%;
+  height: 25%;
   background-color: yellow;
   color: black;
   text-shadow: 2px 2px #ff0000;
   border-radius: 65%;
   font-size: 34px;
+}
+
+button:hover{
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+img{
+  margin-left: 31%;
 }
 
 button:hover{
