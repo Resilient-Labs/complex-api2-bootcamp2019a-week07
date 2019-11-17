@@ -10,7 +10,7 @@ Upon submitting an artist's name and song title, this web app returns a gif of t
 
 ## How It's Made:
 **Tech used:** HTML, CSS, JavaScript, APIs.
-This web app runs an artist's name and song title through a song lyrics API and displays that song's lyrics in the DOM.  It then begins another fetch, running the artist's name from the response object through a another API in order to retrieve a gif from that response object.  I know that I could have retrieved that gif by using the artist's name from the input to begin with, but the objective was to use the data from the first request to retrieve data in a second response.
+This web app runs an artist's name and song title through a song lyrics API and displays that song's lyrics in the DOM.  It then begins another fetch, running the artist's name from the response object through another API in order to retrieve and then display a gif from that response object.  I know that I could have retrieved that gif by using the artist's name from the input to begin with, but the objective was to use the data from the first request to retrieve data from a second API's response.
 
 ## How To Use:
   1. Click on the link above.
