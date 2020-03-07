@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/news.jpeg);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  font-weight: 500;
+}
+
+section {
+  margin-top: 4%;
+}
+
+input {
+  width: 25%;
+  border-style: none;
+  border-radius: 5%;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 36%;
+}
+
+button {
+  font-size: 20px;
+  border-style: none;
+  border-radius: 4%;
+  padding-top: 5px;
+}
+
+#newsList {
+  list-style: none;
+  font-size: 30px;
+  margin: 8%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
