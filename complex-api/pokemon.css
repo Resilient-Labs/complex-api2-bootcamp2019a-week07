@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+.box{
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#delete-container{
+  margin-top: 13%;
+}
+#poke-box{
+  margin-top: 3%;
+}
