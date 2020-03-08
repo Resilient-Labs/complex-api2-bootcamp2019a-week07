@@ -1,0 +1,26 @@
+* {box-sizing:
+    border-box;
+}
+h1{
+  color:crimson;
+  font-size: 3rem;
+
+}
+/* main{
+  margin-left: 11%;
+} */
+section {
+  /* display: flex;
+  justify-content: center; */
+  margin-left: 22%;
+}
+#title{
+  margin: 0;
+}
+button{
+  height:40px;
+  width:21%;
+  font-size: 2rem;
+  background-color: gold;
+  margin-left: 41%;
+}
