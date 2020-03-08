@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightblue;
+}
+h2{
+  font-weight: bold;
+  color: purple;
+  display: flex;
+  justify-content: center;
+}
+h3{
+  font-weight: bold;
+  color: brown;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.generalButton{
+  display: flex;
+  justify-content: center;
+}
+.largestContainer{
+  border: solid black;
+  width: 60%;
+  margin-left: 20%;
+
+}
