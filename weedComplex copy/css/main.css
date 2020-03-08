@@ -1,0 +1,59 @@
+body{
+  background-image: url(weed.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lemonada', cursive;
+}
+
+header{
+  height: 150px;
+  width: 100%;
+  background-color: white;
+  border: solid 2px black;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+section{
+  background-color: white;
+  border: solid 2px black;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 15px;
+}
+
+section:nth-of-type(1){
+  width: 10%;
+  float: left;
+}
+
+section:nth-of-type(2){
+clear: both;
+}
+
+section:nth-of-type(3){
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+
+h2{
+  color: #009900;
+}
+
+h3{
+  color: #009900;
+}
+
+span{
+  font-size: 20px;
+  color: #009900;
+}
+
+img{
+  height: 350px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50px;
+}
