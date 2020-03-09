@@ -14,18 +14,17 @@ fetch(`https://api.otreeba.com/v1/strains`)
         const inCode = word.lineage.India
         const brCode = word.lineage.Brazil
 
-        document.getElementById("paragraph").innerHTML = word.name
-        document.getElementById("f").innerHTML = "Genetic family:" + " " + word.genetics.names
-        document.getElementById("j").innerHTML = "Breeder:" + " " + word.seedCompany.name
-        //document.getElementById("img").src = word.qr
-        document.getElementById("imgTwo").src = word.image
-        document.getElementById("k").innerHTML = "Country of origin:"
-        document.getElementById('x').innerHTML= `<img src='https://www.countryflags.io/${afCode}/flat/64.png'/>`
-        document.getElementById('y').innerHTML= `<img src='https://www.countryflags.io/${coCode}/flat/64.png'/>`
-        document.getElementById('z').innerHTML= `<img src='https://www.countryflags.io/${mxCode}/flat/64.png'/>`
-        document.getElementById('g').innerHTML= `<img src='https://www.countryflags.io/${zaCode}/flat/64.png'/>`
-        document.getElementById('h').innerHTML= `<img src='https://www.countryflags.io/${inCode}/flat/64.png'/>`
-        document.getElementById('i').innerHTML= `<img src='https://www.countryflags.io/${brCode}/flat/64.png'/>`
+        document.getElementById("strain").innerHTML = word.name
+        document.getElementById("genetics").innerHTML = "Genetic family:" + " " + word.genetics.names
+        document.getElementById("breeder").innerHTML = "Breeder:" + " " + word.seedCompany.name
+        document.getElementById("photo").src = word.image
+        document.getElementById("country").innerHTML = "Country of origin:"
+        document.getElementById("af").src= `https://www.countryflags.io/${afCode}/flat/64.png`
+        document.getElementById("co").src= `https://www.countryflags.io/${coCode}/flat/64.png`
+        document.getElementById("mx").src= `https://www.countryflags.io/${mxCode}/flat/64.png`
+        document.getElementById("za").src= `https://www.countryflags.io/${zaCode}/flat/64.png`
+        document.getElementById("in").src= `https://www.countryflags.io/${inCode}/flat/64.png`
+        document.getElementById("br").src= `https://www.countryflags.io/${brCode}/flat/64.png`
 
       if(idNumber === "Dirty Cookies"){
        idNumber = "863";
@@ -53,7 +52,7 @@ fetch(`https://api.otreeba.com/v1/strains`)
       .then(res => res.json())
       .then(description => {
 
-        document.getElementById("a").innerHTML = description.desc
+        document.getElementById("desc").innerHTML = description.desc
 
       })
 
@@ -61,9 +60,9 @@ fetch(`https://api.otreeba.com/v1/strains`)
       .then(res => res.json())
       .then(effects => {
 
-        document.getElementById("b").innerHTML = "Positive Effects:" + " " + effects.positive[0] + ", " + effects.positive[1] + ", " + effects.positive[2] + ", " + effects.positive[3]
-        document.getElementById("c").innerHTML = "Negative Effects:" + " " + effects.negative[0] + ", " + effects.negative[1]
-        document.getElementById("d").innerHTML = "Medical Effects:" + " " + effects.medical[0] + ", " + effects.medical[1] + ", " + effects.medical[2] + ", " + effects.medical[3] + ", " + effects.medical[4]
+        document.getElementById("positive").innerHTML = "Positive Effects:" + " " + effects.positive[0] + ", " + effects.positive[1] + ", " + effects.positive[2] + ", " + effects.positive[3]
+        document.getElementById("negative").innerHTML = "Negative Effects:" + " " + effects.negative[0] + ", " + effects.negative[1]
+        document.getElementById("medical").innerHTML = "Medical Effects:" + " " + effects.medical[0] + ", " + effects.medical[1] + ", " + effects.medical[2] + ", " + effects.medical[3] + ", " + effects.medical[4]
 
       })
 
@@ -71,13 +70,12 @@ fetch(`https://api.otreeba.com/v1/strains`)
       .then(res => res.json()) // parse response as JSON (can be res.text() for plain response)
       .then(flavors => {
 
-        document.getElementById("e").innerHTML = "Flavors:" + " " + flavors[0] + ", " + flavors[1] + ", " + flavors[2]
+        document.getElementById("flavors").innerHTML = "Flavors:" + " " + flavors[0] + ", " + flavors[1] + ", " + flavors[2]
 
       })
 
     .catch(err => {
         console.log(`error ${err}`)
-        //alert("sorry, there are no results for your search")
     })
     })
   })
