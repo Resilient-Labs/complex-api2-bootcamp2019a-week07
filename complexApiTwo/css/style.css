@@ -1,0 +1,69 @@
+body{
+  background-color: #5dbb63;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 95%;
+  margin-top: 1rem;
+  border-radius: 3px;
+}
+
+h1{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 5rem;
+  margin-bottom: 0px;
+}
+
+h2{
+  font-family: 'Rubik', sans-serif;
+}
+
+span{
+  color: #5dbb63;
+}
+
+button{
+  font-size: 1.7rem;
+  font-family: 'Sen', sans-serif;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.center{
+  text-align:center;
+}
+
+#photo{
+  width: 50%;
+}
+
+section{
+  background-color: white;
+  width: 95%;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  margin-top: -3px;
+}
+
+p{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.flags{
+  margin-left: 1.5rem;
+}
