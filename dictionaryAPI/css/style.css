@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  align-content: center;
+
+}
+.header {
+  width: 100%;
+  clear: both;
+  background-color: darkmagenta;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  height: auto;
+}
+.header h1 {
+  font-size: 50px;
+  margin-bottom: 1%;
+}
+.header form {
+  margin: 50px auto;
+  width: 50%;
+}
+.header input {
+  width: 90%;
+  font-size: 30px;
+}
+.header button {
+  border-radius: 30%;
+  padding: 1%;
+  width: 8%;
+}
+section {
+  width: 50%;
+  float: left;
+  height: auto;
+}
+h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 45px;
+}
+h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 35px;
+}
+#typeAndDef p {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 25px;
+}
+ #synonyms p {
+   font-family: "Indie Flower", cursive;
+   font-size: 25px;
+ }
