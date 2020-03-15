@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: navy;
+}
+h1{
+  color: white;
+}
+p{
+  color: white;
+  font-size: 2em;
+}
+li{
+  list-style: none;
+}
