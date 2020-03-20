@@ -1,22 +1,19 @@
-# 📊 Project: Complex API 2
+# Complex API 2: CannaBase
+#### Project Scope: CannaBase randomly displays a cannabis profile that displays key descriptions and lineage. It incorporates two different cannabis APIs by Otreeba and The Strain and a flag API to represent country of origin. 
+#### View here: https://svdev-cannabase.netlify.com
+![](complexApiTwo/complexApi2.png)
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+![](complexApiTwo/complexApi2a.png)
 
-### How to submit your code for review:
+# How it was made:
+#### HTML5, CSS3, Javascript E6, API, JSON
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# Optimizations:
+#### This API feeds one API into a flag API to display country of origin and a separate cannabis API to display the description, effects and flavors. 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Lesson Learned: 
+#### To develop a cohesive app with utility, it is important to take into account the information available in each API. 
+
+# Sources:
+#### Otreeba Open Cannabis API: https://api.otreeba.com/swagger/
+#### The Strain API: https://strains.evanbusse.com/
