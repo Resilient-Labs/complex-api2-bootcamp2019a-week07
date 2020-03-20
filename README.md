@@ -1,22 +1,11 @@
 # 📊 Project: Complex API 2
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+This another example of the usefulness of APIs and the ability to generate random cat photos when the user clicks on the button. This is very calming for some people when they are going through things. That is why I created this web application.
 
-### How to submit your code for review:
+![alt tag](support.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+TOOLS used: HTML, CSS, JAVASCRIPT
+
+
+.
