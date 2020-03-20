@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(pokemon.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%,100%;
+}
+h1{
+  font-size: 62px;
+    font-weight: 500;
+    font-weight: bolder;
+    color:#00FF4C;
+
+}
+h2{
+  font-size: 28px;
+}
+ img{
+   border:30px #eef119 solid;
+  width: 28%;
+   border-radius: 13%;
+    border-style: double;
+    margin-top: 10%;
+    margin-left: 4%;
+ }
+
+ section{
+   float: right;
+    margin: 0;
+    text-align: center;
+    width: 48%;
+    margin-right: 18%;
+    margin-top: 8%;
+    font-family: 'Orbitron', sans-serif;
+ }
