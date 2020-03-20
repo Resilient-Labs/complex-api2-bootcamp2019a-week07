@@ -3,8 +3,12 @@
 }
 
 body {
-  background-image: url(../image/lucky.png);
+  background-image: url(../image/lucky3.png);
   background-repeat: no-repeat, repeat;
   background-size: cover;
   text-align: center;
+}
+
+p, button, span, h1 {
+  color:red;
 }
