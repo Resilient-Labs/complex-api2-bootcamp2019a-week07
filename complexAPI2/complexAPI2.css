@@ -1,0 +1,10 @@
+*{
+  list-style-type: none;
+  font-family: 'Crete Round', serif;
+}
+
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
