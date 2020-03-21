@@ -1,0 +1,16 @@
+ img{
+  background-image: url("images/yoda-pic.jpeg");
+  background-size: cover;
+   /* height: 100px; */
+  width: 100%;
+}
+
+body{
+  background-color: green;
+}
+
+
+button{
+  height: 30px;
+  width: 30%;
+}
