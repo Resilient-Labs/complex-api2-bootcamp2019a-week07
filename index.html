@@ -3,19 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c0e668a8ad.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Book Review</title>
   </head>
   <body>
-    <form class="form">
-      <input id="input" type="text" placeholder="Title" name="" value="">
-      <input id="author" type="text" placeholder="Author" name="" value="">
-      <input id="button" type="submit" name="" value="Submit">
-    </form>
-    <p id="snippet"></p>
-    <form class="reviewForm">
-      <input id="urlButton" target="_blank" src="" type="submit" name="" value="Review">
-    </form>
+    <header>
+        <form class="form">
+            <input id="title" type="text" placeholder="Title" name="" value="">
+            <input id="author" type="text" placeholder="Author" name="" value="">
+            <input id="button" class="fas fa-book" value="&#xf02d" type="submit">
+            </form>
+    </header>
+    <section class="container">
+        <h1>Book Review</h1>
+        <img class="logo" src="img/book1.gif" alt="">
+        <p class="title"></p>
+        <p class="author"></p>
+        <p class="genre"></p>
+        <p id="snippet"></p>
+        <form class="reviewForm">
+        </form>
+        <section class="containerReview hidden">
+          <a href="#" id="reviewLink">Review</a>
+        </section>
+    </section>
     <script src="js/main.js"></script>
   </body>
 </html>
