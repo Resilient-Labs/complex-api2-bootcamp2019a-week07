@@ -1,0 +1,47 @@
+body {
+  background: url("bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input {
+  margin-left: 40rem;
+  width: 10rem;
+}
+
+ul {
+  margin-left: 18rem;
+  margin-right: 14rem;
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-top: 1.3rem;
+  margin-bottom: 2px;
+  margin-left: 19.5rem;
+}
+
+img {
+  border: 5px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17rem;
+  height: 15rem;
+}
