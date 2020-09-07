@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  text-align: center;
+}
+
+h1{
+font-size: 60px;
+font-family: 'Futura';
+color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+text-align: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+input {
+  width: 200px;
+}
+li {
+  float: left;
+  width: 25%;
+  height: 450px;
+  width: 300px;
+  list-style: none;
+  text-align: center;
+}
+
+li > img {
+  height: 400px;
+  width: 300px;
+}
+
+/* Child Text Container */
+li h2 {
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  opacity: 0;
+  display: none;
+  float: left;
+}
+
+/* Hover on Parent Container */
+li > img:hover {
+  cursor: pointer;
+}
+
+li:hover h2 {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  padding: 0 auto;
+  display: block;
+  opacity: 0.7;
+  float: left;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+  background-color: rgba(255,255,255,0.5);
+}
+
+li:hover a img {
+  visibility: visible;
+  display: block;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+  /* float: left; */
+}
+a {
+  visibility: hidden;
+  width: 300px;
+  background-color: rgba(255,255,255,0.8);
+}
+a img {
+  position: relative;
+  bottom: 235px;
+  height: 30px;
+  padding: 0 auto;
+  background-color: rgba(255,255,255,0.5);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #ff0080;
+  border-right: none;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  margin-top: 20px;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  border: 1px solid #ff0080;
+  background: #ff0080;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
