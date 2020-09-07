@@ -1,22 +1,19 @@
-# 📊 Project: Complex API 2
+# 📊 Project: Complex API - Recipes
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+### Goal: Get a randomized recipe and display using The Meal DB's API. From the recipe given, get the number of calories per 100g of that dish and using Edamam's Food Database API.
 
-### How to submit your code for review:
+**View project in browser:** https://endev-recipe-complex-api.netlify.com
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt tag](screenshot.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Design and Development:
+**Tech Used** HTML, CSS, JavaScript, API, JSON: 
+Using The Meal's DB to get a randomized recipe, take the recipe name and fetch Edamam's Food Database API to get number of calories per 100g for that meal.
+
+## Reflections:
+The Meal DB's API was a different from other APIs that list their ingredients in an array. Their ingredients AND measurements are listed as separate keys: "strIngredient1" "strMeasure1" through 20. Initially, I was going to use Edamam's API to get nutrient facts on individal ingredients but ended up using the name instead. Because I thought I would be getting info for each ingredient, that explains the getIngredients function rather than displaying: <strMeasure1 + " " + strIngredient1>.
+
+## API Source:
+**The Meal DB:** https://www.themealdb.com/api.php
+
+**Edamam Food Database:** https://developer.edamam.com/food-database-api
