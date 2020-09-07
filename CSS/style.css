@@ -1,0 +1,16 @@
+body{
+  text-align: center;
+  background-color: rgb(243,41,17);
+}
+button{
+  margin-top: 2%;
+  height: 40px;
+  width: 100px;
+}
+span{
+  display: none;
+}
+
+h1{
+   text-decoration: underline;
+}
