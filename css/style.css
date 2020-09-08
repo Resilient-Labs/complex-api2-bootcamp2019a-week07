@@ -1,0 +1,15 @@
+body{
+  background-image: url(../img/bar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+img{
+  height: 200px;
+  text-align: center;
+}
+h1{
+  margin-top: 150px;
+}
