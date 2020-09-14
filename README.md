@@ -4,7 +4,7 @@ I used data from 1 API to return your current location, then make a request to a
 
 **Link to project:** https://location-and-weather-api.netlify.app
 
-![alt tag](https://i.imgur.com/fal9KoA.png)
+![alt tag](https://i.imgur.com/OIDPtV0.png)
 
 ## How It's Made:
 
