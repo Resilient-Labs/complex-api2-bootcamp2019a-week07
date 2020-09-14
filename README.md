@@ -8,4 +8,4 @@ I used data from 1 API to return your current location, then make a request to a
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, ipapi.co API (Location), and the WeatherStack API
+**Tech used:** HTML, CSS, JavaScript, Ipapi.co API (Location), and the WeatherStack API
