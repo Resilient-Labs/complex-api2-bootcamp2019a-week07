@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+body{
+    background-image: url(../pic/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(113, 27, 130, 0.2);
+    height: 100vh;
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+}
+
+.secMovieRecommendation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20rem;
+    width: 80%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h1{
+    height: 7rem;
+    border: .1rem solid white;
+    background-color: rgba(47, 163, 103, 0.5);
+    border-radius: 20%;
+    padding: 1%;
+}
+.inputSearch, button{
+    text-align: center;
+    height: 3rem;
+    width: 50%;
+}
+
+.inputSearch{
+    margin-top: 2%;
+}
+
+.secResults{
+
+    width: 70%;
+    display: none;
+    /* display: grid; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: .1rem solid black;
+    background-color: white;
+    margin-top: 3%;
+}
+
+.secMovieTitle, .secMoviePlot, .secReview{
+
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+    color: black;
+}
