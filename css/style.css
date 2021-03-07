@@ -1,0 +1,63 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  background: url(../img/wallpaper.jpg);
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+section > div{
+  background-color: aliceblue;
+}
+.Displayplaces > div{
+  float: left;
+  border: 2px solid lightgrey;
+  padding: 1rem;
+  background-color: aliceblue;
+}
+div{
+  margin: 2rem;
+  font-size: 1.5rem;
+  font-family: -webkit-pictograph;
+}
+input{
+  height: 3rem;
+    width: 20%;
+    font-size: 1.5rem;
+    padding-left: 1.2rem;
+}
+.player{
+  border: 2px solid lightgrey;
+  width: 25%;
+  margin: auto;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+span{
+  font-size: 1.3rem;
+}
+button{
+  font-size: 1.5rem;
+  height: 3rem;
+}
+h1{
+  font-size: 2.5rem;
+  color: #fffbfb;
+  background: #404040;
+}
+h5{
+  display: inline-block;
+}
