@@ -1,0 +1,124 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+html{
+  font-size: 10px;
+  background-color: #1f7578;
+  background-image: url('../img/world.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  height: 100px;
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 5rem;
+  font-family: 'Roboto',monospace;
+  color:#f70f59;
+}
+.topix{
+  height: 50px;
+  margin-left: 34%;
+  background-color: #f70f59;
+    font-size: 2rem;
+    border-radius: 37px;
+    font-family: 'Roboto';
+    outline: none;
+    color: white;
+    padding-left: 1rem;
+    box-shadow: 10px 5px 10px white;
+}
+.place{
+  padding-left: 1rem;
+  height: 50px;
+  background-color: #f70f59;
+    font-size: 2rem;
+    border-radius: 37px;
+    font-family: 'Roboto';
+    outline: none;
+    color: white;
+    box-shadow: 10px 5px 10px white;
+}
+li{
+  width: 37%;
+  float: left;
+  font-size: 1.8rem;
+  margin: 21px 5%;
+  font-family: 'Roboto',sans-serif;
+  padding: 1.8rem;
+  background-color: rgb(225,225,225,.6);
+  border: 1px solid black;
+}
+ol{
+  width: 100%;
+    height: 800px;
+    list-style: none;
+    overflow: scroll;
+}
+img{
+  height: 180px;
+    float: left;
+    margin-right: 13px;
+}
+.title{
+  font-weight: 800;
+}
+button{
+  height: 46PX;
+width: 7%;
+border-radius: 28px;
+margin-left: 16px;
+box-shadow: 10px 5px 10px white;
+}
+button:hover{
+  color: red;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
