@@ -1,4 +1,5 @@
-document.querySelector('button').addEventListener('click', getInfo)
+document.querySelector('.enter').addEventListener('click', getInfo)
+document.querySelector('.clear').addEventListener('click', clearInfo)
 
 function getInfo() {
 
@@ -25,4 +26,10 @@ function getInfo() {
           })
       }
     })
+}
+
+function clearInfo() {
+  document.querySelector('input').value = ""
+  document.querySelector('img').src = ""
+  document.querySelector('#names').innerText = ""
 }

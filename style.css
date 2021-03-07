@@ -1,0 +1,22 @@
+*{
+  font-size: 62.5;
+}
+body {
+  text-align: center;
+  background-color: blue;
+}
+
+img {
+  height: 300px;
+  width: 50%;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+ul {
+  color: white;
+  list-style: none;
+}

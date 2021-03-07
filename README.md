@@ -2,21 +2,10 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+### I used two api's to create an app where you can enter your favorite artist and find out their nicknames and see a photo of them as well
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+[Checkout My Portfolio](https://www.tamikasterlin.com)
+
+
+![Application Screenshot](musicscreenshot.png)
