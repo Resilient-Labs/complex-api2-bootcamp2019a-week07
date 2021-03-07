@@ -1,22 +1,24 @@
-# 📊 Project: Complex API 2
+# complex-api-movie-recommeder
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+This is a movie recommender app that take an actor's name and generates a movie recommendation and a movie review. For example, if the user wants to watch a movie with Will Smith, they can input Will Smith and click enter. Then, a movie recommendation with Will Smith in it and a movie review will appear.
 
-### How to submit your code for review:
+Link to Project: https://movie-recommeder-api.netlify.app/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Project Image](/pic/movie.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+### How It's Made:
+
+Tech used: HTML, CSS, JavaScript
+
+This dictionary app uses 2 APIs: 1) a Movie API (themoviedb.org ) and 2) a Movie Review API (new york times movie review). First, the user inputs an actor's name (i.e. Will Smith) and clicks enter. Next, a movie with Will Smith in it and its plot summary is returned as a recommendation. Then, the movie title is sent to the movie review API where the movie review is returned to the DOM. 
+
+actor's name -> movie recommendation -> movie review
+
+
+### Lesson Learned
+
+I learned how to use 2 APIs in an app. I did this by writing a fetch statement and nesting another fetch statement inside of it. 
+ 
+
+###
