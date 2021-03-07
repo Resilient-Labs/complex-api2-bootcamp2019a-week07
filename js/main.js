@@ -2,23 +2,23 @@
 //Property of GardnerGang: Worked together - Wade, Brian, Dashlin, Julie, Asianna, Tanecia, Ziya
 document.querySelector('button').addEventListener('click', makeCatMeme)
 
-function makeCatMeme(){
+function makeCatMeme() {
   let catFacts
-// Get cat facts
-  fetch('https://cat-fact.herokuapp.com/facts')
+  // Get cat facts
+  fetch('https://catfact.ninja/fact')
     .then(res => res.json())
-    .then(data => {
+    .then(factData => {
       //Inside cat Fact - Randomize the facts
-      let fact = data[Math.floor(Math.random() * Math.floor(4))].text
-      console.log(data)
+      console.log(factData)
+      fact = factData.fact
       //-----------------------------
       // Get the cat image
       fetch('https://api.thecatapi.com/v1/images/search')
         .then(res => res.json())
-        .then(data => {
+        .then(imageData => {
           //Text overlay of images
-          let catPic = data[0].url
-          console.log(data)
+          let catPic = imageData[0].url
+          console.log(imageData)
           // Get file according to API documentation
           let memeText = fact.split(' ').join('_')
           memeText = fact.split('?').join('~q')
