@@ -1,0 +1,110 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background: url(https://st4.depositphotos.com/5727474/19939/v/600/depositphotos_199395304-stock-video-global-earth-rotating-digital-world.jpg);
+     background-size: cover;
+}
+html{
+  font-size: 10px;
+}
+h1{
+  height: 100px;
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 5rem;
+  font-family: 'Roboto',monospace;
+}
+.topix{
+  height: 50px;
+  margin-left: 34%;
+  background-color: transparent;
+    font-size: 2rem;
+    border-radius: 37px;
+    font-family: 'Roboto';
+    outline: none;
+    color: black;
+    box-shadow: 10px 5px 10px white;
+}
+.place{
+  height: 50px;
+  background-color: transparent;
+    font-size: 2rem;
+    border-radius: 37px;
+    font-family: 'Roboto';
+    outline: none;
+    color: black;
+    box-shadow: 10px 5px 10px white;
+}
+li{
+  width: 37%;
+  float: left;
+  font-size: 1.8rem;
+  margin: 21px 34%;
+  font-family: 'Roboto',sans-serif;
+  padding: 1.8rem;
+  background-color: transparent;
+}
+img{
+  height: 180px;
+    float: left;
+    margin-right: 13px;
+}
+.title{
+  font-weight: 800;
+}
+.button{
+  width: 30px;
+}
+h1{
+  color: rgb(96, 14, 131);
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
