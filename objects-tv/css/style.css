@@ -1,0 +1,61 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: inline-block;
+  margin: 2% auto;
+}
+body{
+  font-family: 'Crimson Text', serif;
+  background-image: url('wallBlue.gif');
+  /* background-repeat: no-repeat; */
+  background-size: 100% auto;
+  color: rgba(217,159,139,255);
+  font-size: 25px;
+}
+
+h1{
+  margin: 2% auto;
+  width: 70%;
+  text-align: center;
+}
+.header{
+  margin: 2% auto;
+  width: 23%;
+  text-align: center;
+}
+.Char{
+  display: inline-block;
+  /* background-color: pink; */
+  height: auto;
+  width: 48%;
+}
+.Act{
+  display: inline-block;
+  /* background-color: blue; */
+  height: auto;
+  /* width: %; */
+
+}
+.mtv{
+  /* display: inline-block; */
+  color: rgb(16,44,52);
+  width: 30%;
+  margin: 3% auto;
+  background-color: rgba(255,255,255,.60);
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
