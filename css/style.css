@@ -1,0 +1,93 @@
+/******************************************
+/* CSS
+/ *******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/ *******************************************/
+body {
+  height: 57vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('cat-bg.png');
+}
+
+.aligner {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.styled-window {
+  width: 80%;
+  background-color: #facee1;
+  border: 25px solid #6466af;
+  height: 45vw;
+  position: relative;
+}
+
+.tab {
+  background-color: #acdedc;
+  height: 90px;
+  width: 100%;
+  border-bottom: 25px solid #6466af;
+  position: absolute;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+img {
+  max-width: 50%;
+  max-height: 600px;
+  width: auto;
+  height: auto;
+  border: 20px solid plum;
+  border-radius: 80px;
+  margin-top: 30px;
+}
+
+h1 {
+  font-family: 'DotGothic16', sans-serif;
+  background-color: #acdedc;
+  padding-left: 10px;
+}
+
+button {
+  font-family: 'DotGothic16', sans-serif;
+  margin-left: 20px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: #6466af;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #4f508b;
+}
+
+button:hover {
+  background-color: #acdedc;
+  color: black;
+}
+
+button:active {
+  background-color: #6466af;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/ *******************************************/
