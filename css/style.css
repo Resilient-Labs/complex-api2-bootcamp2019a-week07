@@ -1,0 +1,46 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* font-family: 'Permanent Marker', cursive;
+font-family: 'Shippori Mincho B1', serif; */
+html{
+  color: rgb(250,250,250);
+  font-size: 62.5%;
+  font-family: "Shippori Mincho b1", helvetica, sans-serif;
+}
+h1{
+
+  font-family: "Permanent Marker";
+  font-size: 5rem;
+}
+body{
+  background: url(../img/books.jpg);
+  background-size: cover;
+}
+form{
+  margin:5rem 0;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+.searchResults{
+  background: rgb(0,0,0);
+  font-size: 2rem;
+  margin: 0 auto'
+  text-align: center;
+  width: 40%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
