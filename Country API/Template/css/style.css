@@ -1,0 +1,109 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: white;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Arial;
+  font-style: normal;
+}
+html {
+  font-size: 10px;
+  background-image: url("https://media.giphy.com/media/3oKIPAX6QjYLp3ZJTi/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  height: 100px;
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Roboto", monospace;
+}
+.toppic {
+  height: 50px;
+  margin-left: 34%;
+  background-color: lightblue;
+  font-size: 2rem;
+  border-radius: 37px;
+  font-family: "Roboto";
+  outline: none;
+  color: white;
+  box-shadow: 10px 5px 10px greenyellow;
+}
+.place {
+  height: 50px;
+  background-color: lightblue;
+  font-size: 2rem;
+  border-radius: 37px;
+  font-family: "Roboto";
+  outline: none;
+  color: white;
+  box-shadow: 10px 5px 10px greenyellow;
+}
+li {
+  width: 37%;
+  float: left;
+  font-size: 1.8rem;
+  margin: 21px 5%;
+  font-family: "Ariel", sans-serif;
+  padding: 1.8rem;
+  background-color: rgba(222, 184, 135, 0.692);
+  border: 1px solid black;
+  box-shadow: 10px 5px 10px coral;
+}
+img {
+  height: 180px;
+  float: left;
+  margin-right: 13px;
+}
+.title {
+  font-weight: 800;
+  color: aliceblue;
+}
+h1 {
+  color: azure;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
