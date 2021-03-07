@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(13, 226, 137), rgb(4, 98, 206));
+    height: 1200px;
+}
+main{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 1120px;
+    width: 800px;
+    background: white;
+}
+.g{
+    width: 30%;
+    height: 170px;
+    float: left;
+    margin: 11px;
+}
+
+.giphy{
+    width: 100%;
+    height: 385px;
+    position: absolute;
+    top: 66%;
+}
+.picture{
+    width: 211px;
+    display: block;
+    margin-left: 20px;
+
+}
+h1{
+    text-align: center;
+}
+.results p{
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 19px;
+}
+h3{
+    margin-left: 20px;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+.sum{
+    margin-left: 20px;
+    display: block;
+    width: 94%;
+}
+button{
+    position: absolute;
+    top: 7%;
+    left: 72%;
+    background: lightgreen;
+    border: 1px solid grey;
+}
+.search{
+    position: absolute;
+    top: 7%;
+    left: 49%;
+}
+.media{
+    position: absolute;
+    top: 7%;
+    left: 26%;
+}
+.media, .search, button{
+    height: 34px;
+}
