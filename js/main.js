@@ -1,5 +1,5 @@
 //this needs CSS and to return the data to the dom...nyt api code works however there arent reviews available for test cases
-// //returns books
+
 
 document.querySelector("button").addEventListener("click", getBooks)
 
@@ -24,6 +24,15 @@ function getBooks(){
      .then(res => res.json())
      .then(data2 => {
      console.log(data2);
+     document.querySelector(".author").innerText = bookAuthor
+     document.querySelector(".title").innerText = bookTitle
+     document.querySelector(".genre").innerText = genre
+     if(data2.results[0] === undefined){
+       document.querySelector(".reviews").innerText = "No reviews available"
+     }else{
+       document.querySelector(".reviews").innerText = data2.results[0]
+     }
+
 
      })
      .catch(err => {
