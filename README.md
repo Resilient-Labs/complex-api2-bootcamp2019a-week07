@@ -2,21 +2,17 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+How much is $1 in this Country?
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Here is a currency converter that converts $1 USD to the currency of the country you put below.
 
-Example:
+Tools used: HTML, CSS JS
+
+
+<img src="/img/screenshot.PNG" alt="Money" style="height: 100px; width:100px;"/>
+
 ```
 I completed the challenge: 5
 I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+This project is one of my first complex API projects and it was challenging for me. The hardest part was deciding and finding two APIs that can work together. The CSS for this project was surprisingly more challenging for me but I'm happy with how it came out.
 ```

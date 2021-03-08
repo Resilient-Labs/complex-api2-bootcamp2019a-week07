@@ -1,0 +1,32 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  margin: 10% 20% 0 20%;
+  background-image: url('https://cdn.britannica.com/s:800x1000/83/189283-050-DF7E0E75/Banknotes-world.jpg');
+}
+
+section{
+  background-color: rgba(255, 255, 255, 0.8);/*white*/
+  /* background-color: rgba(rgb(169, 191, 148,0.8); /*green*/
+  height: 350px;
+}
+
+h1{
+  font-size: 36px;
+  padding-top: 8%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
