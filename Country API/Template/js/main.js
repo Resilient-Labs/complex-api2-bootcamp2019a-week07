@@ -1,3 +1,4 @@
+// worked on with wade, dash, tenecia, asaiana, julie, ziya
 document.querySelector('button').addEventListener('click',getData)
 function getData(){
   document.querySelector('.list').innerHTML = ''
