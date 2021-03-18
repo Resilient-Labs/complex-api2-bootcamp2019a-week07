@@ -1,22 +1,11 @@
-# 📊 Project: Complex API 2
+# Country Facts - used 2 APIs
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+Insert a country's name, and information on that country will be generated. I am from Haiti, try typing in Haiti and see what generates! Have fun!
 
-### How to submit your code for review:
+To see deployed site, visit [The Application here](https://practical-rosalind-590c8e.netlify.app). See my other projects there as well!
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Screenshots
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![Application Screen Shot](img8.jpg)
+
+Looking for collaborate with me? Visit khorallypierre.com
