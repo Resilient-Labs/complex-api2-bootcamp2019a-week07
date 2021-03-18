@@ -37,8 +37,12 @@ h3 {
   font-size: 40px;
 }
 
-input {
-  margin-left: 700px;
+
+
+
+.center {
+  text-align: center;
+  margin: auto;
 }
 
 
