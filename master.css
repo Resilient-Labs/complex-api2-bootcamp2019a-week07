@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: ZdykCancer-9YKLy;
+  src: url(ZdykCancer-9YKLy.ttf) format('truetype');
+}
+
+html {
+  font-size: 62.5%;
+  background-image: url(zodiac.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: ZdykCancer-9YKLy;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigBody {
+  border: 2px solid black;
+  border-radius: 20%;
+  height: 80vh;
+  width: 75vw;
+  margin: 5% auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 75rem;
+  justify-content: center;
+  align-items: center;
+  /* display: flex; */
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 4rem;
+}
+
+h2 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.topBody {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: inline;
+  width: 75vw;
+  margin: 5% auto;
+}
+
+.horscope {
+  border: 2px solid gold;
+  border-radius: 20px;
+  height: auto;
+  width: 75%;
+  margin: 5% auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.horscope {
+  font-size: 3.5rem;
+}
+
+.advice {
+  border: 2px solid gold;
+  border-radius: 20px;
+  height: auto;
+  width: 75%;
+  margin: 5% auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+}
