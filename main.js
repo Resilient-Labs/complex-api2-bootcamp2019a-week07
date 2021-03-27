@@ -32,7 +32,7 @@ function getSelectionText() {
 function useSelectionText() {
     let highlight = getSelectionText()
     if (highlight) {
-        let udUrl = `http://api.urbandictionary.com/v0/define?term=${highlight}`
+        let udUrl = `https://api.urbandictionary.com/v0/define?term=${highlight}`
         console.log(udUrl)
         fetch(udUrl)
             .then(res => res.json())
