@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-image: url("back2.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 4rem;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 27px;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 27px;
+}
+
+#song{
+    margin-left:38%;
+    margin-bottom: 27px;
+
+}
+
+#results{
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+
+}
+#urban{
+    color: black;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+ol{
+    list-style-type: none;
+    margin-left: -2%;
+    margin-bottom: 18px;
+    
+}
+
+button:hover{
+    background-color: #34A6FA;
+}
