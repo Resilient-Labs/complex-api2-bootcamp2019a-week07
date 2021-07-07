@@ -1,22 +1,13 @@
 # 📊 Project: Complex API 2
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+This api project will give you a random drink (most likely alcohol) description.
 
-### How to submit your code for review:
+## How It Works:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech Used:** HTML, JS, cocktail api, wikipedia search api
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+On the click of a button, the cocktail api sends a random cocktail. I extracted only the drink ingredient used for that cocktail and passed the variable that contains the drink ingredient through the wikipedia api. Then I extracted the description for the drink search and displayed it into the DOM. Some searches had no proper description, so I added an if/else conditional when there is no description.
+
+##Lessons Learned:
+
+A lot of apis have bad organization, like the wikipedia one. 
