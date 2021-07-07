@@ -1,0 +1,17 @@
+h1{
+  color: blue;
+  text-align: center;
+}
+section{
+  text-align: center;
+}
+body{
+  background-image: url("https://imgc.artprintimages.com/img/print/full-earth-showing-north-america-with-stars_u-l-p1bdit0.jpg?h=550&w=550&background=fbfbfb");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h3{
+  color: white;
+text-align: center;
+font-size: 85px;
+}
