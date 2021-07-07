@@ -1,0 +1,38 @@
+body {
+  background-color: beige;
+}
+h1 {
+  text-align: center;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+button {
+  width:10%;
+  animation: blinker 3s linear infinite;z
+  margin: 1% auto;
+  box-shadow: 2px 2px lightgray;
+  border-radius: 6%;
+  line-height: 2;
+  margin-left: 45%;
+}
+button:hover {
+  animation: none;
+  background-color: white;
+  font-size: 25px;
+  margin-left: 40%;
+  width: 20%;
+  cursor: pointer;
+}
+form {
+  font-size: 26px;
+  margin-left: 29%;
+  width: 41%;
+}
+section{
+  width: 40%;
+  margin-left: 39%;
+  font-size: 20px;
+}
